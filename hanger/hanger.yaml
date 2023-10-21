@@ -1,0 +1,15 @@
+path: ../yolov5/hanger  # dataset root dir
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes
+names:
+  0: hanger
+
+roboflow:
+  workspace: alvy-mia-maharani
+  project: hanger-finder
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alvy-mia-maharani/hanger-finder/dataset/1
